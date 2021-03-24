@@ -1,5 +1,5 @@
 <?php
-    $gred=90;
+    $gred=95;
 
     if($gred>100){
         echo "Error";
