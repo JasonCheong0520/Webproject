@@ -1,0 +1,28 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding:5px;
+}
+th{background-color: grey;
+    color:white;
+}
+td{text-align: right;
+}
+table{
+    border-spacing: 20px;
+}
+
+#table02 th{
+    background-color: teal;
+}
+
+#table02 tr{
+    background-color: tomato;
+    color: white;
+}
+
+#table02 tr:nth-child(even){
+    text-align:center;
+}
